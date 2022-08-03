@@ -1,0 +1,192 @@
+.main{
+    display: flex;
+    gap: 2rem;
+}
+
+.left-main{
+    width: 45%;
+    padding: 2rem;
+    padding-bottom: 1rem;
+}
+.left-main > h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+.left-main .buttons{
+    display: flex;
+    gap: 0.5rem;
+}
+.left-main .buttons>button{
+    font-size: 16px;
+    padding: 1rem 2.5rem; 
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+.left-main .buttons .btn1{
+    border: none;
+    background: #7ad0a7;
+    color: white;
+    transition: 1s all ease;
+}
+.left-main .buttons .btn1:hover{
+    color: black;
+    background: white;
+    border: 1px solid gray;
+}
+.left-main .buttons .btn2{
+    border: 1px solid gray;
+    background: white;
+    transition: 1s all ease;
+}
+/* .left-main .buttons .btn2:hover{
+    border: none;
+    background: #7ad0a7;
+    color: white;
+} */
+.left-main > p{
+    margin-top: 2rem;
+}
+input[type=text], select {
+    padding: 15px 25px;
+    margin: 10px;
+    width: 38%;
+    border-radius: 25px;
+    border: 1px solid gray;
+}
+select{
+    width: 46.5%;
+}
+.right-main{
+    width: 55%;
+    padding: 2rem;
+    padding-bottom: 1rem;
+}
+.right-main .icons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+.right-main .cart{
+    border: 2px solid #7ad0a7;
+    padding: 0.5rem 0.6rem;
+    text-align: center;
+    border-radius: 51%;
+}
+.right-main .line{
+    height: 1px;
+    background: #e9e9e9;
+    width: 70px;
+}
+.right-main .truck{
+    background: #7ad0a7;
+    padding: 0.5rem 0.6rem;
+    text-align: center;
+    border-radius: 51%;
+    color: white;
+}
+.pay > h5{
+    font-size: 16px;
+    font-weight: 400;
+}
+.options{
+    display: flex !important;
+    flex-wrap: wrap; 
+}
+.option{
+    height: 45px;
+    width: 115px;
+    margin: 6px;
+    border: 2px solid #e9e9e9;
+    background: white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.option:hover{
+    border: 2px solid goldenrod;
+}
+.options .option > img{
+    height: 50%;
+    width: 45%;
+}
+.Delivery >h5{
+    font-size: 16px;
+    font-weight: 400;
+}
+.d-options{
+    display: flex !important;
+    flex-wrap: wrap; 
+}
+.d-option{
+    height: 57px;
+    width: 180px;
+    margin: 6px;
+    border: 2px solid #e9e9e9;
+    background: white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d-option:hover{
+    border: 2px solid goldenrod;
+}
+.d-options .d-option > img{
+    height: 50%;
+    width: 35%;
+    margin-right: 15px;
+}
+.billing{
+    display: flex;
+    gap: 1rem;
+}
+.payment{width: 55%;}
+
+.cart-payment >h5{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.order{
+    display: flex;
+    gap: 1rem;
+}
+.order-image{
+    height: 50px;
+    width: 50px;
+}
+.order-image > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.order-name > P{
+    color: gray;
+}
+.order-name{
+    margin-right: 10px;
+}
+.order .price{
+    margin: 0;
+}
+.total{
+    margin-top: 3rem;
+    display: flex;
+    gap: 2rem;
+    background: #e9e9e9;
+    border-radius: 25px;
+    justify-content: space-around;
+    width: 90%;
+}
+.shipping-detail{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 60%;
+}
+.shipping-detail .icon-truck{
+    font-size: 1.2rem;
+}

@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+    margin-bottom: 3rem;
+}
+.back-menu{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.proceed{
+    display: flex;
+    gap: 1rem;
+}
+.proceed>button{
+    font-size: 16px;
+    padding: 1rem 2.5rem; 
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+.proceed .btn-2{
+    border: none;
+    background: #7ad0a7;
+    color: white;
+    transition: 1s all ease;
+}
+.proceed .btn-2:hover{
+    color: black;
+    background: white;
+    border: 1px solid gray;
+}
+.proceed .btn-1{
+    border: 1px solid gray;
+    background: white;
+}
